@@ -1,12 +1,12 @@
 @font-face {
     font-family: mainfont;
-    src: url('./Fonts/IRANSans-light.ttf') format('truetype'), url('./Fonts/IRANSans-light.woff') format('woff'), url('./Fonts/IRANSans-light.woff2') format('woff2'), url('./Fonts/IRANSans-light.eot') format('embedded-opentype');
+    src: url('./fonts/IRANSans-light.ttf') format('truetype'), url('./fonts/IRANSans-light.woff') format('woff'), url('./fonts/IRANSans-light.woff2') format('woff2'), url('./fonts/IRANSans-light.eot') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
     font-family: mainfont;
-    src: url('./Fonts/IRANSans-bold.ttf') format('truetype'), url('./Fonts/IRANSans-bold.woff') format('woff'), url('./Fonts/IRANSans-bold.woff2') format('woff2'), url('./Fonts/IRANSans-bold.eot') format('embedded-opentype');
+    src: url('./fonts/IRANSans-bold.ttf') format('truetype'), url('./fonts/IRANSans-bold.woff') format('woff'), url('./fonts/IRANSans-bold.woff2') format('woff2'), url('./fonts/IRANSans-bold.eot') format('embedded-opentype');
     font-weight: bold;
     font-style: normal;
   }
