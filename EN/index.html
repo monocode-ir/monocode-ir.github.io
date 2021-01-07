@@ -21,11 +21,20 @@
 .bluebox {
     float: left;
 }
+.property-item_head {
 
+text-align: left;
+
+}
 .property-item_head span {
     margin-left: 14px;
     float: left;
+    margin-right: unset;
 }
+.property-item_head::after {
+    left: 26%;
+}
+
 
     </style>
 </head>
@@ -58,21 +67,21 @@
                 <div class="infoo not-drag">
                     <div class="infoo info" data-section="Contact">
                         <div class="infoo-head">
-                            <label>اطلاعات تماس</label>
+                            <label>Contact</label>
                         </div>
 
                         <div class="contact-item contact__email">
                             <span>
                                 <i class="fa fa-envelope"></i>
                             </span>
-                            <span>ایمیل:</span>
+                            <span>Mail:</span>
                             <span>mr.ghiasy@gmail.com</span>
                         </div>
                         <div class="contact-item contact__mobile">
                             <span>
                                 <i class="fa fa-mobile-alt"></i>
                             </span>
-                            <span>موبایل:</span>
+                            <span>Mobile:</span>
                             <span style="unicode-bidi:embed" dir="ltr">(+98)9122901772</span>
                         </div>
 
@@ -80,15 +89,15 @@
                             <span>
                                 <i class="fas fa-globe"></i>
                             </span>
-                            <span>وب سایت:</span>
+                            <span>webpage:</span>
                             <span>www.MonoCode.ir</span>
                         </div>
                         <div class="contact-item contact__city">
                             <span>
                                 <i class="fas fa-map-marker"></i>
                             </span>
-                            <span>آدرس:</span>
-                            <span>تهران</span>
+                            <span>Location:</span>
+                            <span>Tehran, Iran</span>
                         </div>
                     </div>
                 </div>
@@ -103,14 +112,11 @@
                         <span>
                             <i class="fa fa-user"></i>
                         </span>
-                        <label>درباره من</label>
+                        <label>About ME</label>
                     </div>
                     <div class="property-item_body">
                         <p class="about-us">
-                            حمیدرضا فراهانی هستم برنامه نویس حوزه موبایل و وب، علاقه مند به کارهای تیمی و ایجاد بسترهای
-                            جدید و نوآورانه در حوزه استارتاپ ها. برنامه نویس front-end &amp; back-end با بیش از 16 سال
-                            سابقه کار و فعالیت در حوزه استارت آپ و طراح بیش از 10 سایت شرکتی و فروشگاهی (با زبان PHP ) و
-                            همچنین سازنده اپلیکیشن های Android &amp; IOS (با زبان Java و React-Native) هستم.
+                            i'm  Hamid Reza Farahani, web and mobile developer, is interested in teamwork and the creation of new and innovative platforms in the area of new statups. with more than 16 years of work experience and activity in the Startup field and design more than 10 corporate and store sites (with Java Language and React-Native). 
                         </p>
                     </div>
                 </div>
@@ -122,15 +128,15 @@
                         <span>
                             <i class="fa fa-globe-americas"></i>
                         </span>
-                        <label>زبان</label>
+                        <label>Languages</label>
                     </div>
                     <div class="property-item_body">
                         <div class="item-row w4">
                             <ul class="history">
                                 <li>
-                                    <h2 class="subtitle language-item">فارسی</h2>
+                                    <h2 class="subtitle language-item">Persian (Farsi)</h2>
                                     <span>
-                                        <label>مهارت خواندن</label>
+                                        <label>Reading</label>
                                         <label class="grade">
                                             <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
                                             <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
@@ -140,18 +146,7 @@
                                         </label>
                                     </span>
                                     <span>
-                                        <label>مهارت نوشتن</label>
-                                        <label class="grade">
-                                            <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
-                                            <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
-                                            <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
-                                            <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
-                                            <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
-                                        </label>
-                                    </span>
-                                    <span>
-
-                                        <label>مهارت گفتاری</label>
+                                        <label>Writing</label>
                                         <label class="grade">
                                             <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
                                             <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
@@ -162,7 +157,18 @@
                                     </span>
                                     <span>
 
-                                        <label>مهارت شنیداری</label>
+                                        <label>Conversation</label>
+                                        <label class="grade">
+                                            <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
+                                            <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
+                                            <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
+                                            <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
+                                            <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
+                                        </label>
+                                    </span>
+                                    <span>
+
+                                        <label>listening</label>
                                         <label class="grade">
                                             <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
                                             <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
@@ -174,9 +180,9 @@
                                 </li>
 
                                 <li>
-                                    <h2 class="subtitle language-item">انگلیسی</h2>
+                                    <h2 class="subtitle language-item">English</h2>
                                     <span>
-                                        <label>مهارت خواندن</label>
+                                        <label>Reading</label>
                                         <label class="grade">
                                             <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
                                             <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
@@ -186,18 +192,7 @@
                                         </label>
                                     </span>
                                     <span>
-                                        <label>مهارت نوشتن</label>
-                                        <label class="grade">
-                                            <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
-                                            <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
-                                            <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
-                                            <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
-                                            <i><span id="freelancer" class="far fa-star"></span></i>
-                                        </label>
-                                    </span>
-                                    <span>
-
-                                        <label>مهارت گفتاری</label>
+                                        <label>Writing</label>
                                         <label class="grade">
                                             <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
                                             <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
@@ -208,7 +203,18 @@
                                     </span>
                                     <span>
 
-                                        <label>مهارت شنیداری</label>
+                                        <label>Conversation</label>
+                                        <label class="grade">
+                                            <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
+                                            <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
+                                            <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
+                                            <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
+                                            <i><span id="freelancer" class="far fa-star"></span></i>
+                                        </label>
+                                    </span>
+                                    <span>
+
+                                        <label>listening</label>
                                         <label class="grade">
                                             <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
                                             <i class="tik"><span id="freelancer" class="far fa-star"></span></i>
@@ -232,22 +238,22 @@
                         <span>
                             <i class="fa fa-graduation-cap"></i>
                         </span>
-                        <label>سوابق تحصیلی</label>
+                        <label>Educations</label>
 
                     </div>
                     <div class="property-item_body">
                         <ul class="history multi-line">
                             <li>
-                                <h2 class="subtitle">کارشناسی ارشد مهندسی کامپیوتر</h2>
-                                <h3 class="subtitle">گرایش: نرم افزار</h3>
-                                <h3 class="subtitle">موسسه/دانشگاه: دانشگاه پیام نور - تهران شمال <label>دولتی</label>
+                                <h2 class="subtitle">Master of Computer Engineering</h2>
+                                <h3 class="subtitle">Software</h3>
+                                <h3 class="subtitle">Payame noor university (Tehran, iran)<label>Governmental</label>
                                 </h3>
-                                <label class="date">دانشجو</label>
+                                <label class="date">Student</label>
                             </li>
                             <li>
-                                <h2 class="subtitle">کارشناسی مهندسی کامپیوتر</h2>
-                                <h3 class="subtitle">گرایش: نرم افزار</h3>
-                                <h3 class="subtitle">موسسه/دانشگاه: موسسه آموزش عالی فخر رازی </h3>
+                                <h2 class="subtitle">Bachelor of Computer Engineering                                </h2>
+                                <h3 class="subtitle">Software</h3>
+                                <h3 class="subtitle">Fakhte razi (saveh, iran)</h3>
                             </li>
                         </ul>
                     </div>
@@ -270,7 +276,7 @@
                         <span>
                             <i class="fa fa-lightbulb"></i>
                         </span>
-                        <label>مهارت&zwnj;ها</label>
+                        <label>Skills</label>
                     </div>
                     <div class="property-item_body">
                         <div class="bar-progress item-row w0">
@@ -405,22 +411,22 @@
                         <span>
                             <i class="fa fa-toolbox"></i>
                         </span>
-                        <label>سوابق شغلی</label>
+                        <label>Work Experience</label>
                     </div>
                     <div class="property-item_body">
                         <ul class="history multi-line">
                             <li class="58668">
                                 <h2 class="subtitle">fron-end & Back-end developer</h2>
-                                <h3 class="subtitle">سازمان صدا و سیما </h3>
-                                <label class="date">1391 تا کنون </label>
+                                <h3 class="subtitle">IRIB</h3>
+                                <label class="date">from 2012 till now</label>
 
                             </li>
                             <li class="58666">
                                 <h2 class="subtitle">fron-end & Back-end developer</h2>
                                 <h3 class="subtitle">
-                                    شرکت: تکتا
+                                    Takta
                                 </h3>
-                                <label class="date">1396-1397</label>
+                                <label class="date">2016-2017</label>
 
                             </li>
                             <li class="1220">
@@ -428,101 +434,33 @@
                                 <h3 class="subtitle">
                                     Freelancer
                                 </h3>
-                                <label class="date">1385 تا کنون</label>
+                                <label class="date">from 2006</label>
 
                             </li>
                         </ul>
                     </div>
                 </div>
 
-                <div style="display: none;" class="property-item certificate__list" data-section="Certificate">
+                <div class="property-item certificate__list" data-section="Certificate">
                     <div class="property-item_head">
                         <span>
                             <i class="fa fa-tasks"></i>
                         </span>
-                        <label>دوره ها و گواهینامه ها</label>
+                        <label>certificates</label>
 
                     </div>
                     <div class="property-item_body">
                         <ul class="history one-line">
                             <li>
-                                <h2 class="subtitle bidirectional">مدیریت پروژه</h2>
-                                <h3 class="subtitle">موسسه: آریانا</h3>
-                                <label class="date"><label class="text-date">تاریخ:</label> بهمن ۱۳۹۴</label>
-                            </li>
-                            <li>
-                                <h2 class="subtitle bidirectional">مدیریت کیفیت ISO9001</h2>
-                                <h3 class="subtitle">موسسه: Moody International</h3>
-                                <label class="date"><label class="text-date">تاریخ:</label> آذر ۱۳۹۳</label>
-                            </li>
-                            <li>
-                                <h2 class="subtitle bidirectional">IELTS</h2>
-                                <h3 class="subtitle">موسسه: کیش</h3>
-                                <label class="date"><label class="text-date">تاریخ:</label> خرداد ۱۳۹۰</label>
-                            </li>
-                            <li>
-                                <h2 class="subtitle bidirectional">Database Administration</h2>
-                                <h3 class="subtitle">موسسه: فراتر از دانش</h3>
-                                <label class="date"><label class="text-date">تاریخ:</label> مرداد ۱۳۹۲</label>
-                            </li>
-                            <li>
-                                <h2 class="subtitle bidirectional">ASP.NET MVC</h2>
-                                <h3 class="subtitle">موسسه: فراتر از دانش</h3>
-                                <label class="date"><label class="text-date">تاریخ:</label> فروردین ۱۳۹۴</label>
-                            </li>
-                            <li>
-                                <h2 class="subtitle bidirectional">برنامه&zwnj; نویسی شی&zwnj;گرا در #C</h2>
-                                <h3 class="subtitle">موسسه: فراتر از دانش</h3>
-                                <label class="date"><label class="text-date">تاریخ:</label> اردیبهشت ۱۳۹۳</label>
-                            </li>
-                            <li>
-                                <h2 class="subtitle bidirectional">سی شارپ پیشرفته و EntityFramework</h2>
-                                <h3 class="subtitle">موسسه: فراتر از دانش</h3>
-                                <label class="date"><label class="text-date">تاریخ:</label> بهمن ۱۳۹۳</label>
-                            </li>
-                            <li>
-                                <h2 class="subtitle bidirectional"> طراحی و پیاده&zwnj;سازی دیتابیس SQL Server</h2>
-                                <h3 class="subtitle">موسسه: فراتر از دانش</h3>
-                                <label class="date"><label class="text-date">تاریخ:</label> آبان ۱۳۸۹</label>
+                                <h2 class="subtitle bidirectional">ICDL</h2>
+                                <h3 class="subtitle">chortke</h3>
+                                <label class="date"><label class="text-date"></label>2002</label>
                             </li>
                         </ul>
                     </div>
                 </div>
 
 
-
-
-                <div style="display: none;" class="property-item research__list" data-section="Research">
-                    <div class="property-item_head">
-                        <span>
-                            <i class="fa fa-search"></i>
-                        </span>
-                        <label>تحقیقات</label>
-
-                    </div>
-                    <div class="property-item_body">
-                        <ul class="history one-line">
-                            <li>
-                                <h2 class="subtitle bidirectional">
-                                    <span> بهبود ردیابی خودرو به کمک خوشه بندی و کشف میزان تطابق نواحی حرکت با استفاده
-                                        از استدلال فازی شهودی</span>
-                                </h2>
-                                <h3 class="subtitle">
-                                    ناشر:
-                                    <span>سیویلیکا</span>
-                                </h3>
-
-                                <label class="date"><label class="text-date">تاریخ:</label> خرداد ۱۳۹۳</label>
-
-                                <p class="project-link">
-                                    لینک مربوطه : <a rel="nofollow noreferrer"
-                                        href="http://www.civilica.com/Paper-ICS12-ICS12_098.html"
-                                        target="_blank">www.civilica.com/Paper-ICS12-ICS12_098.html</a>
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
 
 
 
@@ -533,59 +471,58 @@
                         <span>
                             <i class="fa fa-pencil-ruler"></i>
                         </span>
-                        <label>برخی از پروژه&zwnj;ها</label>
+                        <label>Projects</label>
 
                     </div>
                     <div class="property-item_body">
                         <ul class="history one-line">
                             <li>
-                                <h2 class="subtitle bidirectional">برنامه کاربردی موبایل (اپلیکیشن) شبکه پنج سیما</h2>
+                                <h2 class="subtitle bidirectional">IRIB TV5 Aplication</h2>
                                 <h3 class="subtitle">WebService, PHP, React-Native</h3>
                                 <label class="date"><label class="text-date">
-                                        <a class="link" target="_blank" href="https://cafebazaar.ir/app/ir.tv5">کافه
-                                            بازار</a>
+                                        <a class="link" target="_blank" href="https://cafebazaar.ir/app/ir.tv5">cafebazaar
+                                        </a>
                                         <label> | </label>
-                                        <a class="link" target="_blank" href="https://myket.ir/app/ir.tv5">مایکت</a>
-                                        <label> | </label>
-                                        <a class="link" target="_blank"
-                                            href="https://sibapp.com/applications/TV5">سیب‌اپ</a>
+                                        <a class="link" target="_blank" href="https://myket.ir/app/ir.tv5">myket</a>
                                         <label> | </label>
                                         <a class="link" target="_blank"
-                                            href="https://anardoni.com/ios/app/mQu2Zw0Zp?lng=fa">اناردونی</a>
+                                            href="https://sibapp.com/applications/TV5">sibapp</a>
+                                        <label> | </label>
+                                        <a class="link" target="_blank"
+                                            href="https://anardoni.com/ios/app/mQu2Zw0Zp?lng=fa">anardoni</a>
                                     </label>
                             </li>
 
                             <li>
-                                <h2 class="subtitle bidirectional">برنامه کاربردی موبایل (اپلیکیشن) آزمونک - تست و آزمون
+                                <h2 class="subtitle bidirectional">Azmoonak (mobile application)
                                 </h2>
                                 <h3 class="subtitle">WebService, Android studio, JAVA</h3>
                                 <label class="date"><label class="text-date">
                                         <a class="link" target="_blank"
-                                            href="https://cafebazaar.ir/app/ir.monocode.azmoonak">کافه
-                                            بازار</a>
+                                            href="https://cafebazaar.ir/app/ir.monocode.azmoonak">cafebazaar                                            بازار</a>
                                         <label> | </label>
                                         <a class="link" target="_blank"
-                                            href="https://myket.ir/app/ir.monocode.azmoonak">مایکت</a>
+                                            href="https://myket.ir/app/ir.monocode.azmoonak">myket</a>
                                     </label>
                             </li>
 
                             <li>
-                                <h2 class="subtitle bidirectional">برنامه کاربردی موبایل (اپلیکیشن) سوالات استخدامی با
-                                    جواب </h2>
+                                <h2 class="subtitle bidirectional">Employment questions  (mobile application)
+                                    </h2>
                                 <h3 class="subtitle">WebService, Android studio, JAVA</h3>
                                 <label class="date"><label class="text-date">
                                         <a class="link" target="_blank"
-                                            href="https://cafebazaar.ir/app/ir.monocode.azmoonEstekhdami">کافه
-                                            بازار</a>
+                                            href="https://cafebazaar.ir/app/ir.monocode.azmoonEstekhdami">cafebazaar
+                                            </a>
                                         <label> | </label>
                                         <a class="link" target="_blank"
-                                            href="https://myket.ir/app/ir.monocode.azmoonEstekhdami">مایکت</a>
+                                            href="https://myket.ir/app/ir.monocode.azmoonEstekhdami">myket</a>
                                     </label>
                             </li>
 
 
                             <li>
-                                <h2 class="subtitle bidirectional">اتوماسیون اداری شرکت تکتا</h2>
+                                <h2 class="subtitle bidirectional">Automation of Takta.co</h2>
                                 <h3 class="subtitle">WebService, Android studio, JAVA</h3>
                                 <label class="date"><label class="text-date">
                                         <a class="link" href="#">-</a>
@@ -597,36 +534,7 @@
                             <li>
                                 <h2 class="subtitle bidirectional">راه اندازی سامانه پشتیبانی بر اساس ویپ (VoIP)</h2>
                                 <label class="date"><label class="text-date">
-                                        <a class="link" href="#">شرکت تکتا (شیما)</a>
-                                    </label>
-                            </li>
-
-
-                            <li>
-                                <h2 class="subtitle bidirectional">اتوماسیون پیام‌نما (TeleText) شبکه های صدا و سیما
-                                </h2>
-                                <h3 class="subtitle">WebService, Mysql, PHP</h3>
-                                <label class="date"><label class="text-date">
-                                        <a class="link" href="#">-</a>
-                                    </label>
-                            </li>
-
-
-                            <li>
-                                <h2 class="subtitle bidirectional">ملوفا (دریافت اتوماتیک جدیدترین موزیک ها از سایت های
-                                    موزیک)</h2>
-                                <h3 class="subtitle">JS, HTML, Mysql, PHP</h3>
-                                <label class="date"><label class="text-date">
-                                        <a class="link" target="_blank" href="https://melofa.ir/">ملوفا</a>
-                                    </label>
-                            </li>
-
-
-                            <li>
-                                <h2 class="subtitle bidirectional">طرح لایه باز</h2>
-                                <h3 class="subtitle">JS, HTML, Mysql, PHP</h3>
-                                <label class="date"><label class="text-date">
-                                        <a class="link" target="_blank" href="http://tarhelayebaz.ir/">طرح لایه باز</a>
+                                        <a class="link" href="#">Takta co (shima)</a>
                                     </label>
                             </li>
 
@@ -638,26 +546,6 @@
 
 
 
-
-                <div style="display: none;" class="property-item honor__list" data-section="Honor">
-                    <div class="property-item_head">
-                        <span>
-                            <i class="fa fa-award"></i>
-                        </span>
-                        <label>افتخارات</label>
-
-                    </div>
-                    <div class="property-item_body">
-                        <ul class="history list-item">
-                            <li>
-                                <p class="bidirectional">
-                                    مقاله برگزیده کنفرانس سیستم ها فازی قزوین
-                                </p>
-                                <label class="date"><label class="text-date">تاریخ:</label> اردیبهشت ۱۳۹۴</label>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
             </div>
         </div>
 
